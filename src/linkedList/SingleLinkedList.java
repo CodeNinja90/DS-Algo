@@ -6,18 +6,6 @@ public class SingleLinkedList {
 	private SingleNode head;
 	private SingleNode tail;
 	private int size;// denotes size of list
-	
-	
-	public SingleNode createSingleLinkedList(int nodeValue) {
-		head = new SingleNode();
-		SingleNode node = new SingleNode();
-		node.setValue(nodeValue);
-		node.setNext(null);
-		head = node;
-		tail = node;
-		size = 1;// size =1
-		return head;
-	}
 
 	public SingleNode getHead() {
 		return head;
@@ -42,6 +30,28 @@ public class SingleLinkedList {
 	public void setSize(int size) {
 		this.size = size;
 	}
+
+
+
+	public boolean existsLinkedList() {
+		// if head is not null retrun true otherwise return false
+		return head != null;
+	}
+
+
+	public SingleNode createSingleLinkedList(int nodeValue) {
+		head = new SingleNode();
+		SingleNode node = new SingleNode();
+		node.setValue(nodeValue);
+		node.setNext(null);
+		head = node; // in java when an obj is assigned to another obj
+		tail = node;
+		size = 1;// size =1
+		return head;
+	}
+
+
+
 	
 	
 	public void insertInLinkedList(int nodeValue, int location) {
@@ -51,11 +61,11 @@ public class SingleLinkedList {
 			System.out.println("The linked list does not exist!!");
 			return; 
 		} else if (location == 0) {// insert at first position
-			node.setNext(head);
+			node.setNext(head); // - here the head contains the last first node value , which now changes to second node.
 			head = node;
 		} else if (location >= size) {// insert at last position
 			node.setNext(null);
-			tail.setNext(node);
+			tail.setNext(node); // - here tail points to previous last node. so tail.setNext(node) sets the previous last node to point to new
 			tail = node; 
 		} else {// insert at specified location
 			SingleNode tempNode = head;
@@ -72,10 +82,7 @@ public class SingleLinkedList {
 	}
 
 	
-	public boolean existsLinkedList() {
-		// if head is not null retrun true otherwise return false
-		return head != null;
-	}
+
 	
 	
 	//Traverses Linked List

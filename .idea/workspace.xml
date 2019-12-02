@@ -1,21 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21df28aa-a382-4411-becd-7ff178f36163" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="21df28aa-a382-4411-becd-7ff178f36163" name="Default Changelist" comment="SLL">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/SingleLinkedListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/SingleLinkedListMain.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Ts02cZn63opGXTGNQBZzvbIP1Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -30,19 +49,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager" selected="Application.SingleLinkedListMain">
     <configuration name="DoubleCircularLinkedListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -111,6 +118,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -122,8 +141,31 @@
       <option name="presentableId" value="Default" />
       <updated>1574233289681</updated>
       <workItem from="1574233290946" duration="5806000" />
-      <workItem from="1574888224924" duration="2074000" />
+      <workItem from="1574888224924" duration="3044000" />
+      <workItem from="1574998294201" duration="15440000" />
+      <workItem from="1575212123522" duration="735000" />
+      <workItem from="1575214123392" duration="108000" />
+      <workItem from="1575214499691" duration="1015000" />
+      <workItem from="1575216347205" duration="51000" />
+      <workItem from="1575234544179" duration="2867000" />
+      <workItem from="1575245385537" duration="248000" />
+      <workItem from="1575248170395" duration="29000" />
+      <workItem from="1575252701124" duration="1803000" />
+      <workItem from="1575256572291" duration="502000" />
+      <workItem from="1575260211045" duration="74000" />
+      <workItem from="1575260459319" duration="122000" />
+      <workItem from="1575266879748" duration="727000" />
+      <workItem from="1575270112390" duration="272000" />
+      <workItem from="1575271107560" duration="191000" />
     </task>
+    <task id="LOCAL-00001" summary="SLL">
+      <created>1574938980455</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574938980455</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,5 +183,39 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SLL" />
+    <option name="LAST_COMMIT_MESSAGE" value="SLL" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="366" y="126" key="CommitChangelistDialog2" timestamp="1575271591417">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="366" y="126" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1575271591417" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1575245265827">
+      <screen x="-142" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/-142.-1080.1920.1080/0.0.1680.1050@-142.-1080.1920.1080" timestamp="1575245265827" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1575245265826">
+      <screen x="-142" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.center/-142.-1080.1920.1080/0.0.1680.1050@-142.-1080.1920.1080" timestamp="1575245265826" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1575245265825">
+      <screen x="-142" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.left/-142.-1080.1920.1080/0.0.1680.1050@-142.-1080.1920.1080" timestamp="1575245265825" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1575245265826">
+      <screen x="-142" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.right/-142.-1080.1920.1080/0.0.1680.1050@-142.-1080.1920.1080" timestamp="1575245265826" />
+    <state x="327" y="-901" key="SettingsEditor" timestamp="1575214697323">
+      <screen x="-142" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="327" y="-901" key="SettingsEditor/-142.-1080.1920.1080/0.0.1680.1050@-142.-1080.1920.1080" timestamp="1575214697323" />
+    <state x="517" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1575214513516">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="517" y="369" key="com.intellij.ide.util.TipDialog/-142.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1575214513516" />
   </component>
 </project>
